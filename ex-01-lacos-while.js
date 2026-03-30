@@ -234,6 +234,7 @@ entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 const numer = [];
 for (let i = 1; i <= 100; i++) {
   numer.push(i);
+  
 }
 
 let inde = 0;     
