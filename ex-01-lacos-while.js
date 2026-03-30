@@ -176,13 +176,15 @@ de 1 a 32. Envie o valor resultante na variável resposta01.
 // Escreva o código da solução abaixo:
 
 
-let com = 0;
-let fim = 32;
-let soma = 0;
-while(com <= fim){
-  soma += com
-  com++
-}
+
+let soma = 0 
+let i = 0 
+while (i <= 32){
+    soma = soma + i
+    i++
+} 
+console.log(soma)
+
 export const resposta01 = soma
 
 /* Questão 02
@@ -190,13 +192,14 @@ Utilizando um laço de repetição while, calcule a soma de todos os números í
 de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta02.
 */
 // Escreva o código da solução abaixo:
-let impares = 1; 
-while (impares <= 50){
-  somaImapar += impares;
-  impares += 2;
-}
-
-export const resposta02 = somaImapar;
+let Resu = 0; 
+let imp = 0
+while (imp <= 50){
+ if (imp % 2 !==0)
+    Resu = Resu + imp
+} imp++
+ console.log(Resu)
+export const resposta02 = Resu;
 
 /* Questão 03
 Crie um laço de repetição while que conte quantos números negativos existem no
